@@ -1,0 +1,51 @@
+C:\Users\user>ibmcloud login
+API 엔드포인트: https://cloud.ibm.com
+지역: us-south
+
+Email> nahyun3486@gmail.com
+
+Password>
+인증 중...
+확인
+
+대상 지정된 계정 nahyun Lee's Account (a264d57db0904a11bfb15f2054665b70)
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                us-south
+사용자:              nahyun3486@gmail.com
+계정:                nahyun Lee's Account (a264d57db0904a11bfb15f2054665b70)
+리소스 그룹:         대상으로 지정된 리소스 그룹이 없습니다.'ibmcloud target -g RESOURCE_GROUP' 명령을 사용하십시오.
+CF API 엔드포인트:
+조직:
+영역:
+
+========================================================================
+C:\Users\user>ibmcloud resource groups
+nahyun3486@gmail.com(으)로 a264d57db0904a11bfb15f2054665b70 계정에서 모든 리소스 그룹 검색 중...
+확인
+이름        ID                                 기본 그룹   상태
+MyFirstRG   fb30065842d24531bd07254e7b961dfa   true        ACTIVE
+
+========================================================================
+C:\Users\user>ibmcloud target -g MyFirstRG
+대상 지정된 리소스 그룹 MyFirstRG
+
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:                us-south
+사용자:              nahyun3486@gmail.com
+계정:                nahyun Lee's Account (a264d57db0904a11bfb15f2054665b70)
+리소스 그룹:         MyFirstRG
+CF API 엔드포인트:
+조직:
+영역:
+
+========================================================================
+C:\Users\user>ibmcloud target -o nahyun3486@gmail.com -s test
+대상 지정된 Cloud Foundry(https://api.us-south.cf.cloud.ibm.com)
+
+실패
+조직을 가져올 수 없음:
+Organization 'nahyun3486@gmail.com'을(를) 찾을 수 없습니다.
